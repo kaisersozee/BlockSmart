@@ -1,0 +1,188 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "Firefox",
+      "version": "150.0.1"
+    },
+    "browser": {
+      "name": "Firefox",
+      "version": "150.0.1"
+    },
+    "pages": [
+      {
+        "id": "page_5",
+        "pageTimings": {
+          "onContentLoad": 557,
+          "onLoad": 1072
+        },
+        "startedDateTime": "2026-05-15T20:45:06.168-07:00",
+        "title": "https://block-smart-foundry.base44.app/api/apps/manifests/6a07d79caf24aa41fae8d7fb/manifest.json"
+      }
+    ],
+    "entries": [
+      {
+        "startedDateTime": "2026-05-15T20:45:06.168-07:00",
+        "request": {
+          "bodySize": 0,
+          "method": "GET",
+          "url": "https://block-smart-foundry.base44.app/api/apps/manifests/6a07d79caf24aa41fae8d7fb/manifest.json",
+          "httpVersion": "HTTP/3",
+          "headers": [
+            {
+              "name": "Host",
+              "value": "block-smart-foundry.base44.app"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0"
+            },
+            {
+              "name": "Accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Alt-Used",
+              "value": "block-smart-foundry.base44.app"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Upgrade-Insecure-Requests",
+              "value": "1"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "document"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "navigate"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "none"
+            },
+            {
+              "name": "Sec-Fetch-User",
+              "value": "?1"
+            },
+            {
+              "name": "Priority",
+              "value": "u=0, i"
+            },
+            {
+              "name": "TE",
+              "value": "trailers"
+            }
+          ],
+          "cookies": [],
+          "queryString": [],
+          "headersSize": 563
+        },
+        "response": {
+          "status": 200,
+          "statusText": "",
+          "httpVersion": "HTTP/3",
+          "headers": [
+            {
+              "name": "date",
+              "value": "Sat, 16 May 2026 03:46:02 GMT"
+            },
+            {
+              "name": "content-type",
+              "value": "application/json"
+            },
+            {
+              "name": "content-length",
+              "value": "325"
+            },
+            {
+              "name": "content-encoding",
+              "value": "br"
+            },
+            {
+              "name": "referrer-policy",
+              "value": "strict-origin-when-cross-origin"
+            },
+            {
+              "name": "rndr-id",
+              "value": "1e7668fe-26e3-40ca"
+            },
+            {
+              "name": "server",
+              "value": "cloudflare"
+            },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=31536000"
+            },
+            {
+              "name": "vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "name": "x-render-origin-server",
+              "value": "uvicorn"
+            },
+            {
+              "name": "priority",
+              "value": "u=0,i"
+            },
+            {
+              "name": "cf-cache-status",
+              "value": "DYNAMIC"
+            },
+            {
+              "name": "cf-ray",
+              "value": "9fc76499afb70543-OTP"
+            },
+            {
+              "name": "alt-svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "name": "server-timing",
+              "value": "cfExtPri"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "mimeType": "application/vnd.mozilla.json.view",
+            "size": 671,
+            "encoding": "base64",
+            "text": "eyJuYW1lIjoiQmxvY2tTbWFydCIsInNob3J0X25hbWUiOiJCbG9ja1NtYXJ0IiwiZGVzY3JpcHRpb24iOiJSZXZvbHV0aW9uaXppbmcgc3VzdGFpbmFibGUgY29uc3RydWN0aW9uIHdpdGggaGlnaC1wZXJmb3JtYW5jZSwgUjQwLXJhdGVkIHBvbHl1cmV0aGFuZSBzdHJ1Y3R1cmFsIGJsb2NrcyBmb3IgdGhlIG5leHQgZ2VuZXJhdGlvbiBvZiBlbmVyZ3ktZWZmaWNpZW50IGJ1aWxkaW5ncy4iLCJpY29ucyI6W3sic3JjIjoiaHR0cHM6Ly9tZWRpYS5iYXNlNDQuY29tL2ltYWdlcy9wdWJsaWMvNmEwN2Q3OWNhZjI0YWE0MWZhZThkN2ZiLzBmNjNmYTUxZF9sb2dvLnBuZyIsInNpemVzIjoiMTkyeDE5MiIsInR5cGUiOiJpbWFnZS9wbmcifSx7InNyYyI6Imh0dHBzOi8vbWVkaWEuYmFzZTQ0LmNvbS9pbWFnZXMvcHVibGljLzZhMDdkNzljYWYyNGFhNDFmYWU4ZDdmYi8wZjYzZmE1MWRfbG9nby5wbmciLCJzaXplcyI6IjUxMng1MTIiLCJ0eXBlIjoiaW1hZ2UvcG5nIn1dLCJzdGFydF91cmwiOiJodHRwczovL2Jsb2NrLXNtYXJ0LWZvdW5kcnkuYmFzZTQ0LmFwcCIsImRpc3BsYXkiOiJzdGFuZGFsb25lIiwidGhlbWVfY29sb3IiOiIjMDAwMDAwIiwiYmFja2dyb3VuZF9jb2xvciI6IiNmZmZmZmYiLCJzY29wZSI6Imh0dHBzOi8vYmxvY2stc21hcnQtZm91bmRyeS5iYXNlNDQuYXBwIn0="
+          },
+          "redirectURL": "",
+          "headersSize": 455,
+          "bodySize": 780
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 0,
+          "dns": 0,
+          "connect": 0,
+          "ssl": 0,
+          "send": 0,
+          "wait": 222,
+          "receive": 0
+        },
+        "time": 222,
+        "_securityState": "secure",
+        "serverIPAddress": "216.24.57.251",
+        "connection": "443",
+        "pageref": "page_5"
+      }
+    ]
+  }
+}
